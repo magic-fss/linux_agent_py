@@ -49,8 +49,8 @@
 ## 安装
 
 ```bash
-git clone https://github.com/magic-fss/ssh-agent.git
-cd ssh-agent
+git clone https://github.com/magic-fss/linux_agent_py.git
+cd linux_agent_py
 pip install -r requirements.txt
 ```
 
