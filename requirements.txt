@@ -1,0 +1,10 @@
+# 核心依赖（必须）
+langchain-ollama>=0.1.0
+langgraph>=0.0.50
+paramiko>=3.0.0
+
+# 可选依赖：仅当使用 OpenAI / 兼容接口时需要
+# langchain-openai>=0.1.0
+
+# 开发依赖（可选）
+# py_compile 用于语法检查（Python 内置，无需安装）

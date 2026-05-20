@@ -1,0 +1,44 @@
+{
+  "model": {
+    "provider": "ollama",
+    "model_name": "qwen2.5-coder:7b",
+    "base_url": "http://localhost:11434",
+    "api_key": "",
+    "temperature": 0.0,
+    "timeout": 120,
+    "max_tokens": 4096
+  },
+  "hosts": [
+    {
+      "name": "gem",
+      "hostname": "192.168.20.129",
+      "port": 22,
+      "username": "admin",
+      "password": "123456",
+      "key_file": "",
+      "key_passphrase": ""
+    }
+  ],
+  "active_host_index": 0,
+  "security": {
+    "enable_whitelist": true,
+    "enable_danger_block": true,
+    "enable_complexity_check": true,
+    "enable_human_approval": true,
+    "approval_timeout_sec": 30,
+    "max_command_length": 1000,
+    "max_and_operators": 2,
+    "max_pipe_depth": 2,
+    "auto_verify": true
+  },
+  "agent_mode": {
+    "mode_id": "expert",
+    "mode_name": "运维专家模式",
+    "description": "标准运维执行模式，含人工审批",
+    "skip_approval": false,
+    "readonly": false,
+    "verbose_analysis": true
+  },
+  "session_id": "运维会话_001",
+  "log_dir": "./logs"
+}
