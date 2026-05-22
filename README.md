@@ -46,6 +46,10 @@
 - Ollama 本地服务（默认端口 11434）
 - 远程 Linux 服务器用于 SSH 目标节点
 
+## 项目菜单页面
+
+<img width="1486" height="1148" alt="image" src="https://github.com/user-attachments/assets/393dd9a8-3eb4-4996-8a1b-941ea7dd11ce" />
+
 ## 安装
 
 ```bash
